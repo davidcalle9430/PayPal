@@ -1,6 +1,0 @@
-C:\Users\david\Documents\Javeriana\Arqui\PayPal\PayPal\PayPal\bin\Debug\PayPal.dll.config
-C:\Users\david\Documents\Javeriana\Arqui\PayPal\PayPal\PayPal\bin\Debug\PayPal.dll
-C:\Users\david\Documents\Javeriana\Arqui\PayPal\PayPal\PayPal\bin\Debug\PayPal.pdb
-C:\Users\david\Documents\Javeriana\Arqui\PayPal\PayPal\PayPal\obj\Debug\PayPal.csprojResolveAssemblyReference.cache
-C:\Users\david\Documents\Javeriana\Arqui\PayPal\PayPal\PayPal\obj\Debug\PayPal.dll
-C:\Users\david\Documents\Javeriana\Arqui\PayPal\PayPal\PayPal\obj\Debug\PayPal.pdb

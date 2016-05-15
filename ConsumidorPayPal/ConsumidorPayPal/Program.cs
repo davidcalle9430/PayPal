@@ -1,9 +1,4 @@
-﻿using ConsumidorPayPal.PaypalWS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsumidorPayPal.PayPalReference;
 
 namespace ConsumidorPayPal
 {
@@ -11,9 +6,18 @@ namespace ConsumidorPayPal
     {
         static void Main(string[] args)
         {
-            Service1Client cliente = new Service1Client();
-            Console.WriteLine( cliente.GetData( 5 ) );
-            Console.ReadLine();
+            PayPalClient client = new PayPalClient();
+            var result = client.pagar(new Transaccion()
+            {
+                NombreUsuario = "David",
+                Contrasenia = "swDavid",
+                Valor = 30.0
+            });
+
+            System.Console.WriteLine( result );
+            System.Console.ReadLine();
+
+ 
         }
     }
 }
